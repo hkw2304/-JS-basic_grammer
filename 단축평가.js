@@ -5,7 +5,7 @@
 // false && // any false 
 
 
-// ?. : 좌항의 값이 null이나 undefined인 경우 undefined를 반환하고 아니면 우항의 값을 반환한다.
+// ?. : 좌항의 값이 null이나 undefined인 경우 undefined를 반환하고 아니면 우항의 프로퍼티를 반환한다.
 var item = null;
 
 var value = item?.value;
