@@ -33,7 +33,7 @@ var circle = {
     radius: 5,
     getDiameter: function(){
         return 2 * this.radius;  //this는 circle을 가리킨다
-    }
+    },
 }
 //this는 객체 자신을 가리키는 참조변수다.
 console.log(circle.getDiameter()); //10
