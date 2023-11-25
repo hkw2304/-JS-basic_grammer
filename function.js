@@ -90,7 +90,7 @@ var obj = {
 };
 
 changeVal(num, obj);
-// 원시값은 재할당되서 넘겨줘서 값이 변하지 않는다.
+// 원시값은 재할당되서 넘겨줘서 값이 변하지않는다.
 console.log(num);
 //참조값을 넘겨줘서 값이 변경된다.
 console.log(obj);
