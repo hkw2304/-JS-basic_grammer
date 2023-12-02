@@ -25,4 +25,14 @@ const obj = {
 console.log(obj.foo.hasOwnProperty("prototype")) // false;
 console.log(obj.foo.prototype); // udnefined
 
+// 생성자 함수의 prototype 프로퍼티와 모든 객체가 가지고 있는 __proto__는 동일한 프로토타입을 가리킨다. 
+
+function person2(name){
+    this.name = name;
+};
+
+const me = new person2("kiwon");
+
+console.log(person2.prototype === me.__proto__); //true
+
 
