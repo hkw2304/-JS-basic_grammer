@@ -12,6 +12,15 @@ var 키워드로 선언한 전역 변수와 선언하지 않은 변수에 값을
 var foo = 1;
 console.log(global.foo);
 
+function foo2(){
+    y = 20;
+}
+foo2();
+// 함수를 실행하고 y는 window(global).y로 선언되서 전역객체의 프로퍼티가 된다.
+console.log("y : ", y); //2
+
+
+
 //빌트인 전역 프로퍼티
 
 console.log(global.Infinity === Infinity); // true
