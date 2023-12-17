@@ -18,6 +18,7 @@ const Person = class MyClass{};
 class Person {
     // 생성자
     constructor(name){
+        public이다.
         this.name = name;
     }
     // 프로토 타입 메서드
@@ -33,6 +34,7 @@ class Person {
 
 const me = new Person("hyun");
 
+생성자 함수 안에서의 인스턴스 값은 public이다.
 console.log(me.name);
 me.sayHi();
 Person.sayHello();
