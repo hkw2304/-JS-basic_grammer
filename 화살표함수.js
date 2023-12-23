@@ -26,3 +26,6 @@ const person = (name =>({
 
 console.log(person.sayHi());
 
+
+
+
