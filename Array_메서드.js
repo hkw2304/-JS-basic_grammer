@@ -47,6 +47,7 @@ let arr3 = arr.concat(arr2);
 console.log(arr3); // [1,2,3,4]
 */
 
+/*
 const arr = [1,2,3,4,5,6,7,8];
 let result = arr.splice(1,3,10,20,30);
 console.log(result); // [2,3,4]
@@ -54,3 +55,34 @@ console.log(arr); // [1,10,20,30,....];
 
 result = arr.splice(1,20,30);
 console.log(arr);
+*/
+/*
+const arr = [1,2,3];
+let result = arr.slice(0,2);
+console.log(result) // [1,2]
+console.log(arr); [1,2,3]
+result = arr.slice(-1);
+console.log(result); // 3
+*/
+
+/*
+const arr = [1,2,3,4,5];
+let result = arr.join();
+console.log(result); // 1,2,3,4,5
+result = arr.join(':');
+console.log(result); // 1:2:3:4:5
+*/
+
+/*
+const arr = [1,2,3,4];
+arr.reverse();
+console.log(arr); // [4,3,2,1]
+*/
+
+const arr = [1,2,3,4,5];
+arr.fill(0);
+console.log(arr); // [0,0,0,0,0]
+
+const arr2 = [1,2,3,4,5];
+arr2.fill(0,2, 4);
+console.log(arr2); // [1,2,0,0,5]
